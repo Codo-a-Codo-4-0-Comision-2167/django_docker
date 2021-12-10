@@ -1,4 +1,4 @@
-FROM python:3.10.0-bullseye
+FROM python:3.11-rc-bullseye
 ENV PYTHONUNBUFFERED=1
 WORKDIR /code
 COPY requirements.txt /code/
