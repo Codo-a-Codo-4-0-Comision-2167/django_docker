@@ -29,6 +29,8 @@ def delete(request, id):
     return HttpResponse("Music with id: %s deleted" % id)
 
 def create(request):
+    # modifcar el metodo create para recibir data solo por post
+    # Y mediante un form html cargar la data del artista, album y genero.
     myMusic = Music(artist="My Artist", album="My Album", genre="Rock")
     myMusic.save()
     return HttpResponse("Music with id: %s created" % myMusic.id)
