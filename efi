@@ -1,0 +1,122 @@
+JavaScript
+
+------------------------------------------------------------------------------------------------------
+1) El  elemento <button> debería hacer algo cuando alguien hace clic en él.
+Seleccione una:
+a. <button onchange ="alert('Hello')">Click me.</button>
+b. <button onkeydown ="alert('Hello')">Click me.</button>
+c. <button onclick ="alert('Hello')">Click me.</button>
+------------------------------------------------------------------------------------------------------
+2) El elemento <div> debería volverse rojo cuando alguien mueva el mouse sobre él.
+Seleccione una:
+a. <div onclick="this.style.backgroundColor='red'">myDIV.</div>
+b. <div onmouseclick="this.style.backgroundColor='red'">myDIV.</div>
+c. <div onmouseover="this.style.backgroundColor='red'">myDIV.</div>
+------------------------------------------------------------------------------------------------------
+3) Utilice el método getElementsByTagName para encontrar el primer <p> elemento y cambie su texto a "Hello".
+<p id="demo"></p>
+<script>
+…
+</script>
+Seleccione una:
+a. document.getElementsByTagName("p")[0].innerHTML= "Hello";
+b. document.getElementsByTagName("p")[1].innerHTML= "Hello";
+c. document.getElementsByTagName("p").innerHTML= "Hello";
+------------------------------------------------------------------------------------------------------
+4) Utilice HTML DOM para cambiar el valor del atributo src de la imagen.
+<img id="image" src="smiley.gif">
+<script>
+…
+</script>
+Seleccione una:
+a. document.getElementById("image").src = "pic_mountain.jpg";
+b. document.getElementById("image").source = "pic_mountain.jpg";
+c. document.getElementById("image").image = "pic_mountain.jpg";
+------------------------------------------------------------------------------------------------------
+5) Cambie el color del texto del <p>elemento a "rojo".
+<p id="demo"></p>
+<script>
+…
+</script>
+Seleccione una:
+a. document.getElementById("demo").color = "red";
+b. document.getElementById("demo").style.color = "red";
+c. document.getElementById("demo").fontColor = "red";
+------------------------------------------------------------------------------------------------------
+
+MySQL
+------------------------------------------------------------------------------------------------------
+1) Para crear objetos de una base de datos se utiliza:
+Seleccione una:
+a. ALTER
+b. AVG
+c. INSERT
+d. CREATE
+------------------------------------------------------------------------------------------------------
+2) Para obtener el máximo valor de un grupo de datos de una o varias tablas de la base de datos se utiliza/n:
+Seleccione una o más de una:
+a. SELECT
+b. HAVING
+c. MAX
+d. GROUP BY
+------------------------------------------------------------------------------------------------------
+3) Para modificar los datos de una tabla de una base de datos se utiliza:
+Seleccione una:
+a. SUM
+b. DELETE
+c. UPDATE
+d. DROP
+------------------------------------------------------------------------------------------------------
+4) Para agregar datos en una tabla de una base de datos se utiliza:
+Seleccione una:
+a. Alter
+b. AVG
+c. INSERT
+d. CREATE
+------------------------------------------------------------------------------------------------------
+5) Para obtener información de una base de datos se utiliza:
+Seleccione una:
+a. SELECT
+b. MAX
+c. HAVING
+d. GROUP BY
+------------------------------------------------------------------------------------------------------
+
+Python
+------------------------------------------------------------------------------------------------------
+1) Cambie el valor de "apple" por "kiwi", en la lista de frutas:
+fruits = ["apple", "banana", "cherry"]
+Seleccione una:
+a. fruits[1]="kiwi";
+b. fruits[0]="kiwi"
+c. fruits[1]="kiwi"
+------------------------------------------------------------------------------------------------------
+2) Elija una opción para agregar "orange" a la lista de frutas:
+fruits = ["apple", "banana", "cherry"]
+Seleccione una:
+a. fruits.append("orange")
+b. fruits.add="orange"
+c. fruits[4]="orange"
+------------------------------------------------------------------------------------------------------
+3) Inserte "lemon" en la segunda posición en la lista de frutas:
+fruits = ["apple", "banana", "cherry"]
+Seleccione una:
+a. fruits.insert(1,"lemon")
+b. fruits[2]= "lemon"
+c. fruits.insert(2,"lemon")
+------------------------------------------------------------------------------------------------------
+4) Elimine el elemento de la segunda posición en la lista de frutas:
+fruits = ["apple", "banana", "cherry"]
+Seleccione una:
+a. fruits.remove[2]
+b. fruits.remove(1)
+c. fruits.remove(2)
+------------------------------------------------------------------------------------------------------
+5) Indique la opción correcta para obtener el último elemento de la lista de frutas.
+fruits = ["apple", "banana", "cherry"]
+Seleccione una:
+a. print(fruits[3])
+b. print(fruits[-1])
+c. print(fruits[len(fruits)])
+------------------------------------------------------------------------------------------------------
+
